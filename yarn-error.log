@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Bharat Achyuta\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add solcjs@0.8.7-fixed
+
+PATH: 
+  C:\Users\Bharat Achyuta\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Bharat Achyuta\bin;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Users\Bharat Achyuta\OneDrive\Desktop\mongosh-1.10.1-win32-x64\mongosh-1.10.1-win32-x64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet;C:\MinGW\mingw32\bin;C:\Program Files\Git\cmd;C:\Users\Bharat Achyuta\OneDrive\Desktop\mongosh-1.10.1-win32-x64\mongosh-1.10.1-win32-x64;C:\Program Files\nodejs;C:\Users\Bharat Achyuta\AppData\Local\Microsoft\WindowsApps;C:\Users\Bharat Achyuta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Users\Bharat Achyuta\OneDrive\Desktop\mongosh-1.10.1-win32-x64\mongosh-1.10.1-win32-x64;C:\Users\Bharat Achyuta\AppData\Local\GitHubDesktop\bin;C:\Users\Bharat Achyuta\.dotnet\tools;C:\Users\Bharat Achyuta\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/solcjs: Not found
+      at params.callback [as _callback] (C:\Users\Bharat Achyuta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\Bharat Achyuta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (C:\Users\Bharat Achyuta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (C:\Users\Bharat Achyuta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "yarn": "^1.22.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
